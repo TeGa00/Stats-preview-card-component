@@ -1,0 +1,100 @@
+.card {
+    background-color: $dark-desaturated-blue;
+    display: flex;
+    align-items: stretch;
+    border-radius: 1rem;
+    max-width: 1140px;
+    margin: 5%;
+}
+
+.text-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6%;
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 85%;
+    }
+
+    h1 {
+        color: $white;
+        font-size: 3.4rem;
+        margin-bottom: 2.8rem;
+        line-height: 4.2rem;
+        letter-spacing: 0.6px;
+    }
+
+    span {
+        color: $soft-violet;
+    }
+
+    .text {
+        color: $slightly-transparent-white;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        letter-spacing: 0.5px;
+    }
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.stat-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stat-num {
+    color: $white;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.stat-title {
+    color: $slightly-transparent-white-stat;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 0.8rem;
+}
+
+.card-img-part {
+    background-color: $soft-violet;
+    border-radius: 0 1rem 1rem 0;
+    position: relative;
+}
+
+img {
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.pink {
+    background-color: $soft-violet;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.attribution {
+    display: none;
+}
